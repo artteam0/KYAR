@@ -1,0 +1,583 @@
+@media (min-width: 480px) and (max-width: 1920px) {
+    html {
+      font-size: calc(5px + 15 * (100vw - 480px) / 1440);
+    }
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+h2 {
+    font-family: 'Alfa Slab One';
+    color: black;
+    font-size: 2rem;
+    margin-left: 3%;
+    letter-spacing: 0.05rem;
+}
+h3 {
+    display: inline;
+    font-family: 'Alfa Slab One';
+    font-size: 1,125rem;
+    color: black;
+    margin-left: 5%;
+}
+h4 {
+    font-family: 'Alfa Slab One';
+    font-size: 1.25rem;
+    color: black;
+    float: left;
+}
+h5 {
+    font-family: 'Courier New';
+    color: black;
+    font-size: 1.25rem;
+    width: 100%;
+    margin-top: -1.2rem;
+    font-weight: lighter;
+}
+h6 {
+    font-family: 'Courier New';
+    font-weight: lighter;
+    color: black;
+    font-size: 0.9375rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    width: 100%;
+    margin-top: -1.5rem;
+}
+.wex {
+    padding-top: -5rem;
+} 
+.aaa {
+    width: 7rem;
+    height: 2rem; 
+    margin-top: 2.75rem;
+    margin-left: 4rem;
+}
+.toBottom {
+    margin-top: 2.75rem;
+    height: 2rem;
+    margin-left: 4rem;
+}
+.Lost_property {
+    width: 100%;
+}
+.desc {
+    width: 60%;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.formtext {
+    font-family: 'Alfa Slab One';
+    font-size: 1.5rem;
+    width: 100%;
+    margin-left: 3rem;
+}
+.formChoice {
+    margin-left: 3rem;
+    font-family:'Courier New';
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: grey;
+    width: 100%;
+}
+select {
+    margin-left: 3rem;
+    position: relative;
+    border: none;
+    border-bottom: 0.125rem solid black; 
+    outline: none; 
+    width: 50rem; 
+    background-color: transparent; 
+    font-family: 'Courier New';
+    font-size: 1.3rem;
+}
+.select {
+    margin-left: 3rem;
+    position: relative;
+    border: none; 
+    border-bottom: 0.125rem solid black; 
+    outline: none; 
+    width: 50rem; 
+    background-color: transparent; 
+    font-family: 'Courier New';
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    resize: vertical;
+}
+.select2 {
+    margin-left: 3rem;
+    position: relative;
+    border: none; 
+    border-bottom: 0.125rem solid black; 
+    outline: none; 
+    width: 10rem; 
+    background-color: transparent; 
+    font-family: 'Courier New';
+    font-size: 1.3rem;
+}
+.select3 {
+    margin-left: 3rem;
+    position: relative;
+    border: none; 
+    border-bottom: 0.125rem solid black; 
+    outline: none; 
+    width: 50rem; 
+    background-color: transparent; 
+    font-family: 'Courier New';
+    font-size: 1.3rem;
+}
+#ss {
+    margin-top: 5rem;
+}
+.desc1 {
+    width: 60%;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+#tt {
+    width: 97%;
+}
+#fo {
+    margin-top: 3rem;
+}
+#ff {
+    margin-top: 3rem;
+}
+#si {
+    margin-top: 3rem;
+}
+#se {
+    margin-top: 3rem;
+}
+#ei {
+    margin-top: 3rem;
+}
+#ni {
+    margin-top: 3rem;
+    width: 96%;
+}
+.submit{
+    width: 10rem;
+    height: 4rem;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: grey;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.footer_background {
+    background-color: #E4DFD8;
+    background-size: 100%;
+    width: 100%;
+    height: 25rem;
+    margin-top: 3rem;
+}
+
+.Whats_on {
+    margin-left: 6rem;
+    margin-top: 3rem;
+    text-align: center;
+} 
+.Highlights {
+    margin-top: 0.2rem;
+} 
+
+.Plan_your_visit {
+    margin-left: 7rem;
+    margin-top: 3rem;
+    height: 13rem;
+    text-align: center;
+} 
+.qq11 {
+    margin-top: 0.2rem;
+} 
+.qq12 {
+    margin-top: -1.8rem;
+}
+.qq13 {
+    margin-top: -1.8rem;
+}
+.qq14 {
+    margin-top: -1.8rem;
+}
+.qq15 {
+    margin-top: -1.8rem;
+}
+.qq16 {
+    margin-top: -1.8rem;
+}
+.qq17 {
+    margin-top: -1.8rem;
+}
+.qq18 {
+    margin-top: -1.8rem;
+}
+
+.About_us {
+    margin-left: 7rem; 
+    margin-top: 3rem;
+}
+.Contacts {
+    margin-left: 7rem; 
+    margin-top: 3rem;
+}
+
+.facebook {
+    width: 3%; 
+    margin-top: 13rem; 
+    margin-left: 15rem;
+}
+.twitter {
+    width: 3%; 
+    margin-left: 0.5rem;
+}
+.instagram {
+    width: 3%; 
+    margin-left: 0.5rem;
+}
+.YouTube {
+    width: 3%;
+    margin-left: 0.5rem;
+}
+
+.Honorus_traditions {
+    width: 29rem; 
+    text-align: center; 
+    margin-left: 8.5rem; 
+    margin-top: 1rem;
+}
+.thirdDiv {
+    width: 12rem; 
+    margin-left: 55rem; 
+    margin-top: -7.75rem;
+}
+.World_Cult {
+    font-family: 'Alfa Slab One'; 
+    height: 0rem;
+}
+.GB {
+    height: 0rem;
+}
+.St_Door {
+    font-family: 'Alfa Slab One'; 
+    width: 15rem; margin-left: 68.5rem; 
+    margin-top: -4.6rem;
+}
+
+.notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4c6daf;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    width: 30rem;
+    text-align: center;
+    animation-duration: 5s;
+  }
+
+  @keyframes slideIn {
+    0% {
+      top: -100px;
+      opacity: 0;
+      visibility: hidden;
+    }
+    100% {
+      top: 20px;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  @keyframes slideOut {
+    0% {
+      top: 20px;
+      opacity: 1;
+      visibility: visible;
+    }
+    100% {
+      top: -100px;
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+}
+  @media (max-width: 480px) {
+    html {
+      font-size: calc(5px + 6 * (100vw - 480px) / 480);
+    }
+  body {
+    display: flex;
+    flex-wrap: wrap;
+}
+h2 {
+    font-family: 'Alfa Slab One';
+    color: black;
+    font-size: 4rem;
+    margin-left: 3%;
+    letter-spacing: 0.05rem;
+}
+h3 {
+    display: inline;
+    font-family: 'Alfa Slab One';
+    font-size: 3rem;
+    color: black;
+    margin-left: 5%;
+}
+h4 {
+    font-family: 'Alfa Slab One';
+    font-size: 2.25rem;
+    color: black;
+    float: left;
+}
+h5 {
+    font-family: 'Courier New';
+    color: black;
+    font-size: 3rem;
+    width: 100%;
+    margin-top: -1.2rem;
+    font-weight: lighter;
+}
+h6 {
+    font-family: 'Courier New';
+    font-weight: lighter;
+    color: black;
+    font-size: 2.25rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    width: 20rem;
+    margin-top: -4rem;
+}
+.aaa {
+    width: 20rem;
+    height: 2rem; 
+    margin-top: 4rem;
+    margin-left: 17rem;
+}
+.toBottom {
+    margin-top: 4rem;
+    height: 2rem;
+    margin-left: 10rem;
+}
+.Lost_property {
+    width: 100%;
+}
+.notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4c6daf;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    width: 80rem;
+    text-align: center;
+    animation-duration: 5s;
+    font-size: 3rem;
+    font-family: 'Courier New';
+  }
+.desc {
+    width: 100%;
+    margin-left: 3rem;
+}
+.desc1 {
+    width: 100%;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.select2 {
+    margin-left: 3rem;
+    position: relative;
+    border: none; 
+    border-bottom: 0.125rem solid black; 
+    outline: none; 
+    width: 25rem; 
+    background-color: transparent; 
+    font-family: 'Courier New';
+    font-size: 3rem;
+    margin-top: 2rem;
+    resize: vertical;
+}
+.select3 {
+    margin-left: 3rem;
+    position: relative;
+    border: none; 
+    border-bottom: 0.125rem solid black; 
+    outline: none; 
+    width: 70rem; 
+    background-color: transparent; 
+    font-family: 'Courier New';
+    font-size: 3rem;
+    margin-top: 2rem;
+    resize: vertical;
+}
+.formChoice {
+    margin-left: 3rem;
+    font-family:'Courier New';
+    font-size: 2.95rem;
+    font-weight: bold;
+    color: grey;
+}
+select {
+    margin-left: 3rem;
+    position: relative;
+    border: none;
+    border-bottom: 0.125rem solid black; 
+    outline: none; 
+    width: 70rem; 
+    background-color: transparent; 
+    font-family: 'Courier New';
+    font-size: 3rem;
+}
+.select {
+    margin-left: 3rem;
+    position: relative;
+    border: none; 
+    border-bottom: 0.125rem solid black; 
+    outline: none; 
+    width: 70rem; 
+    background-color: transparent; 
+    font-family: 'Courier New';
+    font-size: 3rem;
+    margin-top: 2rem;
+    resize: vertical;
+}
+.form_text {
+    font-family:'Courier New';
+    font-size: 3rem;
+}
+.submit {
+    width: 50rem;
+    height: 8rem;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 3rem;
+    word-spacing: 0rem;
+    color: grey;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.footer_background {
+    background-color: #E4DFD8;
+    background-size: 100%;
+    width: 100%;
+    height: 72.5rem;
+    margin-top: 5rem;
+}
+
+.Whats_on {
+    margin-left: 10rem;
+    margin-top: 3rem;
+    text-align: center;
+} 
+.Highlights {
+    margin-top: 0.2rem;
+} 
+
+.Plan_your_visit {
+    margin-left: 6rem;
+    margin-top: 3rem;
+    height: 13rem;
+    text-align: center;
+} 
+.qq11 {
+    margin-top: 0.2rem;
+} 
+.qq12 {
+    margin-top: -4rem;
+}
+.qq13 {
+    margin-top: -4rem;
+}
+.qq14 {
+    margin-top: -4rem;
+}
+.qq15 {
+    margin-top: -4rem;
+}
+.qq16 {
+    margin-top: -4rem;
+}
+.qq17 {
+    margin-top: -4rem;
+}
+.qq18 {
+    margin-top: -4rem;
+}
+.hr {
+    margin-top: 3rem;
+}
+
+.About_us {
+    margin-left: 7rem; 
+    margin-top: 3rem;
+}
+.Contacts {
+    margin-left: 7rem; 
+    margin-top: 3rem;
+}
+
+.facebook {
+    width: 6%; 
+    margin-top: 22rem; 
+    margin-left: 17rem;
+}
+.twitter {
+    width: 6%; 
+    margin-left: 0.5rem;
+}
+.instagram {
+    width: 6%; 
+    margin-left: 0.5rem;
+}
+.YouTube {
+    width: 6%;
+    margin-left: 0.5rem;
+}
+
+.Honorus_traditions {
+    width: 86%; 
+    text-align: center; 
+    margin-left: 6rem; 
+    margin-top: 3rem;
+}
+.thirdDiv {
+    width: 30rem; 
+    margin-left: 6rem; 
+    margin-top: 0rem;
+}
+.World_Cult {
+    font-family: 'Alfa Slab One'; 
+    height: 0rem;
+}
+.GB {
+    height: 0rem;
+}
+.St_Door {
+    font-family: 'Alfa Slab One'; 
+    width: 35rem; 
+    margin-left: 55rem; 
+    margin-top: -11rem;
+}
+}

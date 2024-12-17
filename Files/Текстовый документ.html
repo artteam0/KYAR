@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @media (min-width: 480px) and (max-width: 1920px) {
+    html {
+      font-size: calc(5px + 15 * (100vw - 480px) / 1440);
+    }
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+h1 {
+    font-family: 'Alfa Slab One';
+    color: #000000;
+    font-size: 4rem;
+    letter-spacing: 0.05rem;
+}
+h2 {
+    font-family: 'Alfa Slab One';
+    color: black;
+    font-size: 2rem;
+    margin-left: 3.125rem;
+    letter-spacing: 0.05rem;
+}
+h3 {
+    display: inline;
+    font-family: 'Alfa Slab One';
+    font-size: 1,125rem;
+    color: black;
+    margin-left: 5%;
+}
+h4 {
+    font-family: 'Alfa Slab One';
+    font-size: 1.25rem;
+    color: black;
+    float: left;
+}
+h5 {
+    font-family: 'Courier New';
+    color: black;
+    font-size: 1.25rem;
+    width: 100%;
+    margin-top: -1.2rem;
+    font-weight: lighter;
+}
+h6 {
+    font-family: 'Courier New';
+    font-weight: lighter;
+    color: black;
+    font-size: 0.9375rem;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+.logo {
+    width: 100%;
+    margin-top: -1.5rem;
+}
+.wex {
+    padding-top: -5rem;
+} 
+.a {
+    height: 2rem; 
+    margin-top: 2.75rem;
+} 
+.toBottom {
+    margin-top: 2.75rem;
+    height: 2rem;
+    margin-left: 4rem;
+}
+.Main_photo {
+    margin-top: -1rem;
+}
+.Name {
+    margin-top: 4.5rem;
+    margin-left: -6.75rem;
+}
+.Date {
+    font-family: 'Courier New';
+    font-size: 2rem;
+    width: 45rem;
+    margin-left: 3.125rem;
+    margin-top: -2.5rem;
+}
+select {
+    margin-left: 3rem;
+    position: relative;
+    border: none;
+    border-bottom: 0.125rem solid black; 
+    outline: none; 
+    width: 50rem; 
+    background-color: transparent; 
+    font-family: 'Courier New';
+    font-size: 1.3rem;
+}
+.select {
+    margin-left: 3rem;
+    position: relative;
+    border: none; 
+    border-bottom: 0.125rem solid black; 
+    outline: none; 
+    width: 50rem; 
+    background-color: transparent; 
+    font-family: 'Courier New';
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    resize: vertical;
+}
+.formChoice {
+    margin-left: 3rem;
+    font-family:'Courier New';
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: grey;
+    width: 100%;
+}
+.formtext {
+    font-family: 'Alfa Slab One';
+    font-size: 1.5rem;
+    width: 100%;
+    margin-left: 3rem;
+}
+    .row {
+        margin-top: 5rem;
+        margin-left: 10rem;
+    }
+    .row2 {
+        margin-left: 11.875rem;
+    }
+    .row3 {
+        margin-left: 13.75rem;
+    }
+    .row4 {
+        margin-left: 15.625rem;
+    }
+    .row5 {
+        margin-left: 17.5rem;
+    }
+    .row6 {
+        margin-left: 19.375rem;
+    }
+    .row7 {
+        margin-left: 21.25rem;
+    }
+    .row8 {
+        margin-left: 23.125rem;
+    }
+    .row9 {
+        margin-left: 25rem;
+    }
+    .row10 {
+        margin-left: 25rem;
+        margin-top: -5rem;
+    }
+    .row11 {
+        margin-left: 23.125rem;
+    }
+    .row12 {
+        margin-left: 21.25rem;
+    }
+    .row13 {
+        margin-left: 19.375rem;
+    }
+    .row17 {
+        margin-left: 11.875rem;
+    }
+    .row16 {
+        margin-left: 13.75rem;
+    }
+    .row15 {
+        margin-left: 15.625rem;
+    }
+    .row14 {
+        margin-left: 17.5rem;
+    }
+    .row18 {
+    }
+    .row19 {
+        margin-left: 11.875rem;
+    }
+    .row21 {
+      margin-left: 24.5rem;
+    }
+    .row20 {
+      margin-left: 14rem;
+    }
+
+  .seat {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    border-radius: 50%;
+    margin: 0.3125rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .seatA {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    background-color: #FF0000;
+    border-radius: 50%;
+    margin: 0.3125rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .seatAA {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #FF0000;
+    margin-left: 7rem;
+    margin-top: -1.2rem;
+  }
+  .seatB {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    background-color: #FF8C00;
+    border-radius: 50%;
+    margin: 0.3125rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .seatBB {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #FF8C00;
+    margin-left: 7rem;
+    margin-top: -1.2rem;
+  }
+  .seatC {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    background-color: #ecec00;
+    border-radius: 50%;
+    margin: 0.3125rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .seatCC {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #ecec00;
+    margin-left: 7rem;
+    margin-top: -1.2rem;
+  }
+  .seatD {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    background-color: #00FFFF;
+    border-radius: 50%;
+    margin: 0.3125rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .seatDD {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #00FFFF;
+    margin-left: 7rem;
+    margin-top: -1.2rem;
+  }
+  .seatE {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    background-color: #989898;
+    border-radius: 50%;
+    margin: 0.3125rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .seatEng {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #989898;
+    margin-left: 7rem;
+    margin-top: -1.2rem;
+  }
+  .seatP {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    background-color: #800080;
+    border-radius: 50%;
+    margin: 0.3125rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .seatPP {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #800080;
+    margin-left: 7rem;
+    margin-top: -1.2rem;
+  }
+  .VIP_1 {
+    margin-left: 0rem;
+  }
+  .VIP_2 {
+    margin-left: 13.75rem;
+  }
+  .VIP_3 {
+    margin-left: 15rem;
+  }
+  .VIP {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    background-color: #0000FF;
+    border-radius: 50%;
+    margin: 0.3125rem;
+    cursor: pointer;
+  }
+  .VIPP {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #0000FF;
+    margin-left: 7rem;
+    margin-top: -1.2rem;
+  }
+  .seat.selected {
+    background-color: black;
+  }
+  #total_price {
+    font-family: 'Courier New';
+    font-size: 1.25rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+  }
+  .text_det {
+    font-family: 'Courier New';
+    font-size: 1.25rem;
+    color: #000000;
+    margin-left: 3rem;
+}
+.Price {
+    font-family: 'Alfa Slab One';
+    font-size: 1rem;
+    color: #000000;
+    margin-left: 2rem;
+}
+td {
+  width: 17rem;
+}
+
+}
+  </style>
+</head>
+<body>
+  <table cellspacing="25px">
+  <tr>
+    <td class="Price">Standard</td>
+    <td class="Price">Price</td>
+  </tr>
+  <tr class="text_det">
+    <td>VIP<div class="VIPP"></div></td>
+    <td>215$</td>
+  </tr>
+  <tr class="text_det">
+    <td>Premium <div class="seatPP"></div></td>
+    <td>195$</td>
+  </tr>
+  <tr class="text_det">
+    <td>A Class <div class="seatAA aa"></div></td>
+    <td>180$</td>
+  </tr>
+  <tr class="text_det">
+    <td>B Class <div class="seatBB"></div></td>
+    <td>170$</td>
+  </tr>
+  <tr class="text_det">
+    <td>C Class <div class="seatCC"></div></td>
+    <td>160$</td>
+  </tr>
+  <tr class="text_det">
+    <td>D Class <div class="seatDD"></div></td>
+    <td>150$</td>
+  </tr>
+  <tr class="text_det">
+    <td>Engaged <div class="seatEng"></div></td>
+  </tr>
+  </table>
+
+  <div id="seat-map">
+
+    <div class="row">
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+    </div>
+  
+    <div class="row2">
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatE disabled" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+    </div>
+  
+    <div class="row3">
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatE" data-price="170"></div>
+      <div class="seat seatE" data-price="170"></div>
+      <div class="seat seatE" data-price="170"></div>
+      <div class="seat seatE" data-price="170"></div>
+      <div class="seat seatE" data-price="170"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatE" data-price="180"></div>
+      <div class="seat seatE" data-price="180"></div>
+      <div class="seat seatE" data-price="180"></div>
+      <div class="seat seatE" data-price="180"></div>
+      <div class="seat seatE" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatE" data-price="170"></div>
+      <div class="seat seatE" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+    </div>
+  
+    <div class="row4">
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatE" data-price="180"></div>
+      <div class="seat seatE" data-price="180"></div>
+      <div class="seat seatE" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatE" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatE" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatE" data-price="170"></div>
+      <div class="seat seatE" data-price="170"></div>
+    </div>
+  
+    <div class="row5">
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatE" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatE" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatE" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+    </div>
+  
+    <div class="row6">
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+    </div>
+  
+    <div class="row7">
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+    </div>
+  
+    <div class="row8">
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+    </div>
+  
+    <div class="row9">
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatA" data-price="180"></div>
+      <div class="seat seatB" data-price="170"></div>
+      <div class="seat seatB" data-price="170"></div>
+    </div>
+  
+    <div class="row20">
+      <div class="seat seatB VIP_1 VIP_2 VIP" data-price="215"></div>
+      <div class="seat seatB VIP_1 VIP" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat seatB VIP_3 VIP" data-price="215"></div>
+      <div class="seat seatB VIP_3 VIP" data-price="215"></div>
+    </div>
+    <div class="row20">
+      <div class="seat seatB VIP_1 VIP_2 VIP" data-price="215"></div>
+      <div class="seat seatB VIP_1 VIP" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat seatB VIP_1 VIP_2 VIP" data-price="215"></div>
+      <div class="seat seatB VIP_1 VIP" data-price="215"></div>
+    </div>
+    <div class="row20">
+      <div class="seat seatB VIP_1 VIP_2 VIP" data-price="215"></div>
+      <div class="seat seatB VIP_1 VIP" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat seatB VIP_1 VIP_2 VIP" data-price="215"></div>
+      <div class="seat seatB VIP_1 VIP" data-price="215"></div>
+    </div>
+    <div class="row20">
+      <div class="seat seatB VIP_1 VIP_2 VIP" data-price="215"></div>
+      <div class="seat seatB VIP_1 VIP" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat" data-price="215"></div>
+      <div class="seat seatB VIP_1 VIP_2 VIP" data-price="215"></div>
+      <div class="seat seatB VIP_1 VIP" data-price="215"></div>
+    </div>
+    
+  
+    <div class="row10">
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+    </div>
+  
+    <div class="row11">
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+    </div>
+  
+    <div class="row12">
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+    </div>
+  
+    <div class="row13">
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+    </div>
+  
+    <div class="row14">
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+    </div>
+  
+    <div class="row15">
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+      <div class="seat seatC" data-price="160"></div>
+    </div>
+  
+  
+  
+    <div class="row19">
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+    </div>
+  
+    <div class="row19">
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+    </div>
+  
+    <div class="row19">
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+    </div>
+  
+    <div class="row19">
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+      <div class="seat seatD" data-price="150"></div>
+    </div>
+  
+    <div class="row21">
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+      <div class="seat seatP" data-price="195"></div>
+    </div>
+    
+  </div>
+  
+  <p>Выбрано место: <span id="selected-seats"></span></p>
+  <p>Сумма к оплате: <span id="total-price">0</span> $</p>
+  
+  <script>
+    const seats = document.querySelectorAll('.seat');
+    const selectedSeats = [];
+    let totalPrice = 0;
+
+    seats.forEach(seat => {
+      seat.addEventListener('click', function() {
+        if (!this.classList.contains('disabled')) {
+          if (!this.classList.contains('selected')) {
+          this.classList.add('selected');
+            selectedSeats.push(this.textContent);
+          totalPrice += parseInt(this.getAttribute('data-price'));
+          } else {
+            this.classList.remove('selected');
+            const index = selectedSeats.indexOf(this.textContent);
+            if (index !== -1) {
+            selectedSeats.splice(index, 1);
+            totalPrice -= parseInt(this.getAttribute('data-price'));
+            }
+          }
+          document.getElementById('selected-seats').textContent = selectedSeats.join(', ');
+          document.getElementById('total-price').textContent = totalPrice;
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

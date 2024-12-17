@@ -1,0 +1,868 @@
+@media (min-width: 480px) and (max-width: 1920px) {
+    html {
+      font-size: calc(5px + 15 * (100vw - 480px) / 1440);
+    }
+  
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+h1 {
+    font-family: 'Alfa Slab One';
+    color: #000000;
+    font-size: 4rem;
+    letter-spacing: 0.05rem;
+}
+h2 {
+    font-family: 'Alfa Slab One';
+    color: black;
+    font-size: 2rem;
+    margin-left: 3.125rem;
+    letter-spacing: 0.05rem;
+}
+h3 {
+    display: inline;
+    font-family: 'Alfa Slab One';
+    font-size: 1,125rem;
+    color: black;
+    margin-left: 5%;
+}
+h4 {
+    font-family: 'Alfa Slab One';
+    font-size: 1.25rem;
+    color: black;
+    float: left;
+}
+h5 {
+    font-family: 'Courier New';
+    color: black;
+    font-size: 1.25rem;
+    width: 100%;
+    margin-top: -1.2rem;
+    font-weight: lighter;
+}
+h6 {
+    font-family: 'Courier New';
+    font-weight: lighter;
+    color: black;
+    font-size: 0.9375rem;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+summary {
+    cursor: pointer;
+}
+details[open] > summary:before {
+    transform: rotate(90deg);
+  }
+  .logo {
+    width: 100%;
+    margin-top: -1.5rem;
+}
+.wex {
+    padding-top: -5rem;
+} 
+.aaa {
+    width: 7rem;
+    height: 2rem; 
+    margin-top: 2.75rem;
+    margin-left: 4rem;
+} 
+.toBottom {
+    margin-top: 2.75rem;
+    height: 2rem;
+    margin-left: 4rem;
+}
+.submit {
+    width: 17rem;
+    height: 4rem;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: grey;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.Main_photo {
+    margin-top: -1rem;
+}
+.Main_photo2 {
+    width: 100%;
+    height: 30rem;
+}
+.Name {
+    margin-left: 3rem;
+    margin-top: -1rem;
+    width: 100%;
+}
+.Date {
+    font-family: 'Courier New';
+    font-size: 2rem;
+    width: 100%;
+    margin-left: 3rem;
+    margin-top: -2rem;
+}
+.det1 {
+    width: 100%;
+    margin-left: 3.125rem;
+}
+.text_summ {
+    font-family: 'Alfa Slab One';
+    font-size: 1.25rem;
+    color: #000000;
+}
+.text_summ_prob {
+    font-family: 'Alfa Slab One';
+    font-size: 1.25rem;
+    color: #000000;
+    width: 100%;
+    margin-left: 3rem;
+    margin-top: -0.25rem;
+}
+.text_det {
+    font-family: 'Courier New';
+    font-size: 1.25rem;
+    color: #000000;
+    margin-left: 3rem;
+}
+.det2 {
+    width: 100%;
+    margin-left: 3.125rem;
+}
+.Price {
+    font-family: 'Alfa Slab One';
+    font-size: 1rem;
+    color: #000000;
+    margin-left: 2rem;
+}
+.det3 {
+    width: 100%;
+    margin-left: 3.125rem;
+}
+.text_nn {
+    font-family: 'Courier New';
+    font-size: 1.25rem;
+    color: #000000;
+    margin-left: 2rem;
+    margin-top: -1rem;
+}
+.det4 {
+    margin-left: 3.125rem;
+    width: 100%;
+}
+.Courtney_Conovan {
+    width: 25rem;
+    height: 25rem;
+    margin-top: 2rem;
+}
+.Names_Actors {
+    font-size: 1.25rem;
+    font-family: 'Alfa Slab One';
+    margin-top: 0rem;
+    width: 20rem;
+}
+.Janre {
+    font-size: 1.25rem;
+    font-family: 'Courier New';
+    margin-top: -1.5rem;
+    width: 20rem;
+}
+.Description_Actors {
+    font-size: 1.25rem;
+    font-family: 'Courier New';
+}
+.Description_Courtney {
+    width: 25rem;
+}
+.LADP {
+    width: 11.8125rem;
+}
+.link_Courtney {
+    text-decoration: underline;
+    font-size: 1.25rem;
+    font-family: 'Courier New';
+    margin-top: -0.5rem;
+}
+.Jeremy_Coachman {
+    width: 25rem;
+    height: 25rem;
+}
+.qq1 {
+    margin-top: -31.20rem;
+    margin-left: 30rem;
+}
+.Description_Jeremy {
+    width: 25rem;
+}
+.IMDB {
+    width: 11.8125rem;
+}
+.link_Jeremy {
+    text-decoration: underline;
+    font-size: 1.25rem;
+    font-family: 'Courier New';
+    margin-top: -0.5rem;
+}
+.Shu_Kinouchi {
+    width: 25rem;
+}
+.qq2 {
+    margin-top: -31.20rem;
+    margin-left: 60rem;
+}
+.Description_Shu {
+    width: 25rem;
+}
+.link_Shu {
+    text-decoration: underline;
+    font-size: 1.25rem;
+    font-family: 'Courier New';
+    margin-top: -0.5rem;
+}
+.instagram {
+    width: 3%;
+}
+.facebook {
+    width: 3%;
+}
+.YouTube {
+    width: 3%;
+}
+.social1 {
+}
+.Hope_Spears {
+    width: 25rem;
+}
+.qq3 {
+    margin-top: 2rem;
+}
+.Description_Hope {
+    width: 25rem;
+}
+.Lorrin_Brubaker {
+    width: 25rem;
+}
+.qq4 {
+    margin-top: -31.20rem;
+    margin-left: 30rem;
+}
+.Description_Lorrin {
+    width: 25rem;
+}
+.last {
+    height: 30rem;
+}
+.qq5 {
+    margin-top: -31.20rem;
+    margin-left: 60rem;
+}
+.qq6 {
+    margin-top: 2rem;
+}
+.qq7 {
+    margin-top: -31.20rem;
+    margin-left: 30rem;
+}
+.qq8 {
+    margin-top: -31.20rem;
+    margin-left: 60rem;
+}
+.qq9 {
+    margin-top: 2rem;
+}
+.qq10 {
+    margin-top: -31.20rem;
+    margin-left: 30rem;
+}
+.qq111 {
+    margin-top: -31.20rem;
+    margin-left: 60rem;
+}
+.qq112 {
+    margin-top: 2rem;
+}
+.qq113 {
+    margin-top: -31.20rem;
+    margin-left: 30rem;
+}
+.qq114 {
+    margin-top: -31.20rem;
+    margin-left: 60rem;
+}
+.qq115 {
+    margin-top: 2rem;
+}
+.qq116 {
+    margin-top: -31.20rem;
+    margin-left: 30rem;
+}
+.qq117 {
+    margin-top: -31.20rem;
+    margin-left: 60rem;
+}
+.Description_Daphne {
+    width: 25rem;
+}
+.Daphne_Fernberger {
+    width: 25rem;
+}
+.Getting_Here_Photo {
+    width: 100%;
+}
+.Background_Getting_Here {
+    width: 47%;
+    margin-left: 3rem;
+}
+.Tours_And_Experiences_Photo {
+    width: 100%;
+    height: 70.5%;
+}
+.Background_Tours_And_Experiences {
+    width: 47.5%;
+    margin-left: 1.5rem;
+}
+.aa {
+    width: 100%;
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+}
+
+.footer_background {
+    background-color: #E4DFD8;
+    background-size: 100%;
+    width: 100%;
+    height: 25rem;
+    margin-top: 2rem;
+}
+
+.Whats_on {
+    margin-left: 6rem;
+    margin-top: 3rem;
+    text-align: center;
+} 
+.Highlights {
+    margin-top: 0.2rem;
+} 
+
+.Plan_your_visit {
+    margin-left: 7rem;
+    margin-top: 3rem;
+    height: 13rem;
+    text-align: center;
+} 
+.qq11 {
+    margin-top: 0.2rem;
+} 
+.qq12 {
+    margin-top: -1.8rem;
+}
+.qq13 {
+    margin-top: -1.8rem;
+}
+.qq14 {
+    margin-top: -1.8rem;
+}
+.qq15 {
+    margin-top: -1.8rem;
+}
+.qq16 {
+    margin-top: -1.8rem;
+}
+.qq17 {
+    margin-top: -1.8rem;
+}
+.qq18 {
+    margin-top: -1.8rem;
+}
+
+.About_us {
+    margin-left: 7rem; 
+    margin-top: 3rem;
+}
+.Contacts {
+    margin-left: 7rem; 
+    margin-top: 3rem;
+}
+
+.facebook {
+    width: 3%; 
+    margin-top: 13rem; 
+    margin-left: 15rem;
+}
+.twitter {
+    width: 3%; 
+    margin-left: 0.5rem;
+}
+.instagram {
+    width: 3%; 
+    margin-left: 0.5rem;
+}
+.YouTube {
+    width: 3%;
+    margin-left: 0.5rem;
+}
+
+.Honorus_traditions {
+    width: 29rem; 
+    text-align: center; 
+    margin-left: 8.5rem; 
+    margin-top: 1rem;
+}
+.thirdDiv {
+    width: 12rem; 
+    margin-left: 55rem; 
+    margin-top: -7.75rem;
+}
+.World_Cult {
+    font-family: 'Alfa Slab One'; 
+    height: 0rem;
+}
+.GB {
+    height: 0rem;
+}
+.St_Door {
+    font-family: 'Alfa Slab One'; 
+    width: 15rem; margin-left: 68.5rem; 
+    margin-top: -4.6rem;
+}
+}
+
+@media (max-width: 480px) {
+    html {
+      font-size: calc(5px + 6 * (100vw - 480px) / 480);
+    }
+  body {
+    display: flex;
+    flex-wrap: wrap;
+}
+h1 {
+    font-family: 'Alfa Slab One';
+    color: #000000;
+    font-size: 6rem;
+    letter-spacing: 0.05rem;
+}
+h2 {
+    font-family: 'Alfa Slab One';
+    color: black;
+    font-size: 4rem;
+    margin-left: 3%;
+    letter-spacing: 0.05rem;
+}
+h3 {
+    display: inline;
+    font-family: 'Alfa Slab One';
+    font-size: 3rem;
+    color: black;
+    margin-left: 5%;
+}
+h4 {
+    font-family: 'Alfa Slab One';
+    font-size: 2.25rem;
+    color: black;
+    float: left;
+}
+h5 {
+    font-family: 'Courier New';
+    color: black;
+    font-size: 3rem;
+    width: 100%;
+    margin-top: -1.2rem;
+    font-weight: lighter;
+}
+h6 {
+    font-family: 'Courier New';
+    font-weight: lighter;
+    color: black;
+    font-size: 2.25rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    width: 20rem;
+    margin-top: -4rem;
+}
+.aaa {
+    width: 20rem;
+    height: 2rem; 
+    margin-top: 4rem;
+    margin-left: 17rem;
+}
+.toBottom {
+    margin-top: 4rem;
+    height: 2rem;
+    margin-left: 10rem;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+summary {
+    cursor: pointer;
+}
+details[open] > summary:before {
+    transform: rotate(90deg);
+  }
+.Main_photo2 {
+    margin-top: -1rem;
+    width: 100%;
+}
+.submit {
+    width: 40rem;
+    height: 7rem;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 3rem;
+    color: grey;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.Name {
+    margin-top: -3rem;
+    margin-left: 3rem;
+    width: 100%;
+}
+.zz1 {
+    width: 100%;
+}
+.Date {
+    font-family: 'Courier New';
+    font-size: 4rem;
+    width: 100%;
+    width: 45rem;
+    margin-left: 3.125rem;
+    margin-top: -2.5rem;
+}
+.minor_details {
+    margin-top: -2rem;
+}
+.det1 {
+    width: 100%;
+    margin-left: 3.125rem;
+}
+.text_summ {
+    font-family: 'Alfa Slab One';
+    font-size: 3rem;
+    color: #000000;
+}
+.text_summ_prob {
+    font-family: 'Alfa Slab One';
+    font-size: 3rem;
+    color: #000000;
+    width: 100%;
+    margin-left: 3rem;
+    margin-top: -0.25rem;
+}
+.text_det {
+    font-family: 'Courier New';
+    font-size: 3rem;
+    color: #000000;
+    margin-left: 3rem;
+    margin-top: -0.5rem;
+}
+.det2 {
+    width: 100%;
+    margin-left: 3.125rem;
+}
+.Price {
+    font-family: 'Alfa Slab One';
+    font-size: 3rem;
+    color: #000000;
+    margin-left: 2rem;
+}
+.det3 {
+    width: 100%;
+    margin-left: 3.125rem;
+}
+.text_nn {
+    font-family: 'Courier New';
+    font-size: 3rem;
+    color: #000000;
+    margin-left: 2rem;
+    margin-top: -1rem;
+}
+.det4 {
+    margin-left: 3.125rem;
+    width: 100%;
+}
+.Courtney_Conovan {
+    width: 40rem;
+    margin-top: 5rem;
+}
+.Names_Actors {
+    font-size: 3rem;
+    font-family: 'Alfa Slab One';
+    margin-top: 0rem;
+    width: 35rem;
+}
+.Janre {
+    font-size: 3rem;
+    font-family: 'Courier New';
+    margin-top: -2rem;
+    width: 40rem;
+}
+.Description_Actors {
+    font-size: 3rem;
+    font-family: 'Courier New';
+}
+.Description_Courtney {
+    width: 40rem;
+}
+.LADP {
+    width: 11.8125rem;
+}
+.link_Courtney {
+    text-decoration: underline;
+    font-size: 1.25rem;
+    font-family: 'Courier New';
+    margin-top: -0.5rem;
+}
+.Jeremy_Coachman {
+    width: 40rem;
+}
+.qq1 {
+    margin-left: 50rem;
+    margin-top: -54rem;
+}
+.Description_Jeremy {
+    width: 40rem;
+}
+.IMDB {
+    width: 20rem;
+}
+.link_Jeremy {
+    text-decoration: underline;
+    font-size: 1.25rem;
+    font-family: 'Courier New';
+    margin-top: -0.5rem;
+}
+.Shu_Kinouchi {
+    width: 40rem;
+}
+.qq2 {
+    margin-top: 5rem;
+}
+.Description_Shu {
+    width: 40rem;
+}
+.link_Shu {
+    text-decoration: underline;
+    font-size: 1.25rem;
+    font-family: 'Courier New';
+    margin-top: -0.5rem;
+}
+.instagram {
+    width: 3%;
+}
+.facebook {
+    width: 3%;
+}
+.YouTube {
+    width: 3%;
+}
+.social1 {
+}
+.Hope_Spears {
+    width: 40rem;
+}
+.qq3 {
+    margin-top: -54rem;
+    margin-left: 50rem;
+}
+.Description_Hope {
+    width: 40rem;
+}
+.Lorrin_Brubaker {
+    width: 40rem;
+}
+.qq4 {
+    margin-top: 5rem;
+}
+.Description_Lorrin {
+    width: 40rem;
+}
+.last {
+    height: 30rem;
+}
+.qq5 {
+    margin-top: -54rem;
+    margin-left: 50rem;
+}
+.qq6 {
+    margin-top: 5rem;
+}
+.qq7 {
+    margin-top: -54rem;
+    margin-left: 50rem;
+}
+.qq8 {
+    margin-top: 5rem;
+}
+.qq9 {
+    margin-top: -54rem;
+    margin-left: 50rem;
+}
+.qq10 {
+    margin-top: 5rem;
+}
+.qq111 {
+    margin-top: -54rem;
+    margin-left: 50rem;
+}
+.qq112 {
+    margin-top: 5rem;
+}
+.qq113 {
+    margin-top: -54rem;
+    margin-left: 50rem;
+}
+.qq114 {
+    margin-top: 5rem;
+}
+.qq115 {
+    margin-top: -54rem;
+    margin-left: 50rem;
+}
+.qq116 {
+    margin-top: 5rem;
+}
+.qq117 {
+    margin-top: -54rem;
+    margin-left: 50rem;
+}
+.Description_Daphne {
+    width: 40rem;
+}
+.Daphne_Fernberger {
+    width: 40rem;
+}
+.Getting_Here_Photo {
+    width: 100%;
+}
+.Background_Getting_Here {
+    width: 93.5%;
+    margin-left: 3rem;
+}
+.Tours_And_Experiences_Photo {
+    width: 100%;
+    height: 70.5%;
+}
+.Background_Tours_And_Experiences {
+    width: 93.5%;
+    margin-left: 3rem;
+}
+.aa {
+    width: 100%;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+.footer_background {
+    background-color: #E4DFD8;
+    background-size: 100%;
+    width: 100%;
+    height: 72.5rem;
+    margin-top: 12.5rem;
+}
+
+.Whats_on {
+    margin-left: 10rem;
+    margin-top: 3rem;
+    text-align: center;
+} 
+.Highlights {
+    margin-top: 0.2rem;
+} 
+
+.Plan_your_visit {
+    margin-left: 6rem;
+    margin-top: 3rem;
+    height: 13rem;
+    text-align: center;
+} 
+.qq11 {
+    margin-top: 0.2rem;
+} 
+.qq12 {
+    margin-top: -4rem;
+}
+.qq13 {
+    margin-top: -4rem;
+}
+.qq14 {
+    margin-top: -4rem;
+}
+.qq15 {
+    margin-top: -4rem;
+}
+.qq16 {
+    margin-top: -4rem;
+}
+.qq17 {
+    margin-top: -4rem;
+}
+.qq18 {
+    margin-top: -4rem;
+}
+.hr {
+    margin-top: 3rem;
+}
+
+.About_us {
+    margin-left: 7rem; 
+    margin-top: 3rem;
+}
+.Contacts {
+    margin-left: 7rem; 
+    margin-top: 3rem;
+}
+
+.facebook {
+    width: 6%; 
+    margin-top: 22rem; 
+    margin-left: 17rem;
+}
+.twitter {
+    width: 6%; 
+    margin-left: 0.5rem;
+}
+.instagram {
+    width: 6%; 
+    margin-left: 0.5rem;
+}
+.YouTube {
+    width: 6%;
+    margin-left: 0.5rem;
+}
+
+.Honorus_traditions {
+    width: 86%; 
+    text-align: center; 
+    margin-left: 6rem; 
+    margin-top: 3rem;
+}
+.thirdDiv {
+    width: 30rem; 
+    margin-left: 6rem; 
+    margin-top: 0rem;
+}
+.World_Cult {
+    font-family: 'Alfa Slab One'; 
+    height: 0rem;
+}
+.GB {
+    height: 0rem;
+}
+.St_Door {
+    font-family: 'Alfa Slab One'; 
+    width: 35rem; 
+    margin-left: 55rem; 
+    margin-top: -11rem;
+}
+}
