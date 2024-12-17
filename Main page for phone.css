@@ -1,0 +1,9 @@
+@media (max-width: 479px) {
+    html {
+      font-size: calc(5px + 15 * (100vw - 320px) / 1160);
+    }
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,164 @@
+@media (max-width: 480px) {
+    html {
+      font-size: calc(5px + 6 * (100vw - 480px) / 480);
+    }
+  body {
+    display: flex;
+    flex-wrap: wrap;
+}
+h2 {
+    font-family: 'Alfa Slab One';
+    color: black;
+    font-size: 4rem;
+    margin-left: 3%;
+    letter-spacing: 0.05rem;
+}
+h3 {
+    display: inline;
+    font-family: 'Alfa Slab One';
+    font-size: 3rem;
+    color: black;
+    margin-left: 5%;
+}
+h4 {
+    font-family: 'Alfa Slab One';
+    font-size: 2.25rem;
+    color: black;
+    float: left;
+}
+h5 {
+    font-family: 'Courier New';
+    color: black;
+    font-size: 3rem;
+    width: 100%;
+    margin-top: -1.2rem;
+    font-weight: lighter;
+}
+h6 {
+    font-family: 'Courier New';
+    font-weight: lighter;
+    color: black;
+    font-size: 2.25rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    width: 15rem;
+}
+.a {
+    height: 2rem; 
+    margin-top: 4rem;
+    margin-left: 13rem;
+} 
+.toBottom {
+    margin-top: 4rem;
+    height: 2rem;
+    margin-left: 10rem;
+}
+
+
+.footer_background {
+    background-color: #E4DFD8;
+    background-size: 100%;
+    width: 100%;
+    height: 75rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.Whats_on {
+    margin-left: 6rem;
+    margin-top: 3rem;
+    text-align: center;
+} 
+.Highlights {
+    margin-top: 0.2rem;
+} 
+
+.Plan_your_visit {
+    margin-left: 6rem;
+    margin-top: 3rem;
+    height: 13rem;
+    text-align: center;
+} 
+.qq11 {
+    margin-top: 0.2rem;
+} 
+.qq12 {
+    margin-top: -4rem;
+}
+.qq13 {
+    margin-top: -4rem;
+}
+.qq14 {
+    margin-top: -4rem;
+}
+.qq15 {
+    margin-top: -4rem;
+}
+.qq16 {
+    margin-top: -4rem;
+}
+.qq17 {
+    margin-top: -4rem;
+}
+.qq18 {
+    margin-top: -4rem;
+}
+.hr {
+    margin-top: 3rem;
+}
+
+.About_us {
+    margin-left: 7rem; 
+    margin-top: 3rem;
+}
+.Contacts {
+    margin-left: 7rem; 
+    margin-top: 3rem;
+}
+
+.facebook {
+    width: 6%; 
+    margin-top: 22rem; 
+    margin-left: 8rem;
+}
+.twitter {
+    width: 6%; 
+    margin-left: 0.5rem;
+}
+.instagram {
+    width: 6%; 
+    margin-left: 0.5rem;
+}
+.YouTube {
+    width: 6%;
+    margin-left: 0.5rem;
+}
+
+.Honorus_traditions {
+    width: 86%; 
+    text-align: center; 
+    margin-left: 6rem; 
+    margin-top: 3rem;
+}
+.thirdDiv {
+    width: 30rem; 
+    margin-left: 6rem; 
+    margin-top: 0rem;
+}
+.World_Cult {
+    font-family: 'Alfa Slab One'; 
+    height: 0rem;
+}
+.GB {
+    height: 0rem;
+}
+.St_Door {
+    font-family: 'Alfa Slab One'; 
+    width: 35rem; margin-left: 40rem; 
+    margin-top: -11rem;
+}
+}

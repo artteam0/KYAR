@@ -1,0 +1,147 @@
+@media (min-width: 480px) and (max-width: 1920px) {
+    html {
+      font-size: calc(5px + 15 * (100vw - 480px) / 1440);
+    }
+  
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+h1 {
+    font-family: 'Alfa Slab One';
+    color: #000000;
+    font-size: 4rem;
+    letter-spacing: 0.05rem;
+}
+h2 {
+    font-family: 'Alfa Slab One';
+    color: black;
+    font-size: 2rem;
+    margin-left: 3.125rem;
+    letter-spacing: 0.05rem;
+}
+h3 {
+    display: inline;
+    font-family: 'Alfa Slab One';
+    font-size: 1,125rem;
+    color: black;
+    margin-left: 5%;
+}
+h4 {
+    font-family: 'Alfa Slab One';
+    font-size: 1.25rem;
+    color: black;
+    float: left;
+}
+h5 {
+    font-family: 'Courier New';
+    color: black;
+    font-size: 1.25rem;
+    width: 100%;
+    margin-top: -1.2rem;
+    font-weight: lighter;
+}
+h6 {
+    font-family: 'Courier New';
+    font-weight: lighter;
+    color: black;
+    font-size: 0.9375rem;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+summary {
+    cursor: pointer;
+}
+.logo {
+    width: 100%;
+    margin-top: -1.5rem;
+}
+.text {
+    width: 100%;
+    margin-left: 42rem;
+    margin-top: -3.5rem;
+}
+.text2 {
+    margin-top: 36rem;
+    margin-left: 3rem;
+}
+.date {
+    width: 15rem;
+    margin-top: 2.75rem;
+    margin-left: 30rem;
+}
+}
+
+@media (max-width: 480px) {
+    html {
+      font-size: calc(5px + 6 * (100vw - 480px) / 480);
+    }
+  body {
+    display: flex;
+    flex-wrap: wrap;
+}
+h1 {
+    font-family: 'Alfa Slab One';
+    color: #000000;
+    font-size: 6rem;
+    letter-spacing: 0.05rem;
+}
+h2 {
+    font-family: 'Alfa Slab One';
+    color: black;
+    font-size: 4rem;
+    margin-left: 3%;
+    letter-spacing: 0.05rem;
+}
+h3 {
+    display: inline;
+    font-family: 'Alfa Slab One';
+    font-size: 3rem;
+    color: black;
+    margin-left: 5%;
+}
+h4 {
+    font-family: 'Alfa Slab One';
+    font-size: 2.25rem;
+    color: black;
+    float: left;
+}
+h5 {
+    font-family: 'Courier New';
+    color: black;
+    font-size: 3rem;
+    width: 100%;
+    margin-top: -1.2rem;
+    font-weight: lighter;
+}
+h6 {
+    font-family: 'Courier New';
+    font-weight: lighter;
+    color: black;
+    font-size: 2.25rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    width: 20rem;
+    margin-top: -4rem;
+}
+.text {
+    width: 100%;
+    margin-left: 42rem;
+    margin-top: -5rem;
+}
+.text2 {
+    margin-top: 10rem;
+    margin-left: 28rem;
+}
+.date {
+    width: 35rem;
+    margin-top: 4rem;
+    margin-left: 25rem;
+}
+}
